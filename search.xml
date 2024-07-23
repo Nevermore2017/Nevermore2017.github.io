@@ -4,9 +4,9 @@
   
     
     <entry>
-      <title>hexo_guide</title>
-      <link href="/2024/07/19/hexo-guide/"/>
-      <url>/2024/07/19/hexo-guide/</url>
+      <title>hexo教程</title>
+      <link href="/2024/07/19/hexo-course/"/>
+      <url>/2024/07/19/hexo-course/</url>
       
         <content type="html"><![CDATA[<p>1、安装node.js<br>2、安装git</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">设置</span><br><span class="line">git config --global user.name &quot;你的git用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的git登录邮箱&quot;</span><br><span class="line">检查</span><br><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br><span class="line">创建ssh,并配置到github</span><br><span class="line">ssh-keygen -t rsa -C &quot;youremail&quot;</span><br></pre></td></tr></table></figure><p>3、安装hexo</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init myblog</span><br><span class="line">cd myblog </span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line">hexo g</span><br><span class="line">hexo server</span><br><span class="line"></span><br><span class="line">访问localhost:4000</span><br></pre></td></tr></table></figure>]]></content>
       
@@ -14,9 +14,9 @@
       
         <tags>
             
-            <tag> 博客記錄 </tag>
+            <tag> 博客记录 </tag>
             
-            <tag> 隨筆 </tag>
+            <tag> 随笔 </tag>
             
         </tags>
       
